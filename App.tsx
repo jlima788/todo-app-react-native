@@ -1,21 +1,14 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text} from 'react-native';
+import {SafeAreaView} from 'react-native';
+
+import Main from './src/screens/main/Main';
 
 function App(): JSX.Element {
   return (
     <SafeAreaView>
-      <Text style={styles.text}>Hello, world!</Text>
+      <Main />
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  text: {
-    fontSize: 20,
-    marginVertical: 10,
-    marginHorizontal: 10,
-    fontFamily: 'Montserrat-Regular',
-  },
-});
 
 export default App;
